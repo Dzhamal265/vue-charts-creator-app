@@ -6,10 +6,12 @@
       <h2>Chart creator menu</h2>
       <DxSelectBox 
         name="chartType" 
+        placeholder="Chart type"
         :data-source="chartTypeOptions"
         v-model="selectedChartType"/>
-      <DxSelectBox 
-        name="dataSource" 
+      <DxSelectBox
+        name="dataSource"
+        placeholder="Data source" 
         :data-source="dataSourceOptions"
         v-model="selectedDataSource"/>
       <DxButton text="Create chart" @click="onClick"/>
