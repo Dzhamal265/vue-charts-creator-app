@@ -1,0 +1,2 @@
+export const API_URL = 'https://xbi-dev.elastoo.com/api/'
+export const JWT_TOKEN =  'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjVlODA2ZWI2NzAwMTRkNGMzMmRkZmIwZCIsImV4cCI6MTU4NjA4MTcyMX0.TFLdAwYDKNkKCuWc31CcosBq2Sstf7C_BGyfAdTaUVQ'
